@@ -1,0 +1,20 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# macOS
+.DS_Store
+__MACOSX/
+._*
+# CatBoost-generated logs
+catboost_info/
+# Experiment outputs
+outputs/
+# Large or sensitive local data (sample CSVs in data/ are intentional)
+*.pkl
+*.joblib
